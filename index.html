@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fawad Ahmad Bilal | AI/ML Engineer</title>
+<meta name="description" content="Portfolio of Fawad, an AI/ML engineering student who builds and deploys models.">
+<script>document.documentElement.classList.add("js")</script>
+<!-- Two fonts only: Sora (headings) and Inter (text) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
+<header class="bar">
+  <a class="logo" href="#top">Fawad Ahmad Bilal</a>
+  <button id="menu" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav" aria-label="Main">
+    <a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark mode">Light</button>
+  </nav>
+</header>
+
+<main id="main">
+  <section id="top" class="hero wrap">
+    <canvas id="net" aria-hidden="true"></canvas>
+    <div class="hero-text">
+      <p class="badge reveal">Open to AI/ML roles and freelance projects</p>
+      <h1 class="reveal">Fawad Ahmad Bilal</h1>
+      <p class="role reveal"><span id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+      <p class="lead reveal">I have shipped live AI/ML apps and built systems used by real businesses. Now I build AI chatbots, vision tools, and prediction apps for yours.</p>
+      <p class="cta reveal"><a class="btn" href="#projects">View projects</a> <a class="btn ghost" href="#contact">Contact me</a></p>
+      <ul class="stats reveal">
+        <li><strong id="n-projects">0</strong> projects</li>
+        <li><strong id="n-live">0</strong> deployed apps</li>
+        <li><strong id="n-intern">0</strong> internships</li>
+      </ul>
+    </div>
+    <div class="photo reveal"><img id="me" src="images/fawad.jpg" alt="Portrait of Fawad Ahmad Bilal in a navy suit" width="560" height="560">
+      <span class="chip c1">Python</span><span class="chip c2">LangChain</span><span class="chip c3">TensorFlow</span></div>
+  </section>
+
+  <section id="about" class="wrap">
+    <h2 class="reveal">What I build</h2>
+    <div class="build">
+      <article class="box reveal"><h3>Agentic AI systems</h3><p>Multi-agent pipelines that keep data, analysis, risk, and decision logic apart.</p></article>
+      <article class="box reveal"><h3>Deep learning and vision</h3><p>CNNs trained from scratch and transfer-learning models on medical images and faces.</p></article>
+      <article class="box reveal"><h3>Honest ML evaluation</h3><p>Leakage-aware validation, grouped splits, and walk-forward backtesting instead of flattering random splits.</p></article>
+      <article class="box reveal"><h3>Deployed applications</h3><p>Models shipped as working apps, not left in Jupyter.</p></article>
+      <article class="box reveal"><h3>Production systems</h3><p>Firebase-backed tools built for, and used by, real businesses.</p></article>
+    </div>
+  </section>
+
+  <section id="services" class="wrap">
+    <h2 class="reveal">How I can help you</h2>
+    <div class="build">
+      <article class="box reveal"><h3>ML web apps</h3><p>I turn a trained model into a Streamlit app that people can open and use. Examples: PneumoScan and the Multi-Organ Diagnostic Suite.</p></article>
+      <article class="box reveal"><h3>AI chatbots and RAG</h3><p>LangChain chatbots that answer from your documents or videos. Examples: the Research Assistant and the YouTube RAG Chatbot.</p></article>
+      <article class="box reveal"><h3>Computer vision</h3><p>Image classification, face analysis, and detection with CNNs and transfer learning.</p></article>
+      <article class="box reveal"><h3>Data analysis and prediction</h3><p>Clean data, honest validation, and clear results. Experience from my CodeAlpha and FlyRank work.</p></article>
+    </div>
+    <p class="fine reveal">How I work: I explain results in plain language, report honest metrics, and deliver working code with a README.</p>
+  </section>
+
+  <section id="projects" class="wrap">
+    <h2 class="reveal">Projects</h2>
+    <div id="filters" class="filters reveal" role="group" aria-label="Filter projects"></div>
+    <div id="project-grid" class="grid"></div>
+    <p class="fine">The medical apps are educational demos, not clinical tools.</p>
+  </section>
+
+  <section id="skills" class="wrap">
+    <h2 class="reveal">Skills</h2>
+    <ul class="tags big reveal"><li>Python</li><li>TensorFlow</li><li>scikit-learn</li><li>OpenCV</li><li>Streamlit</li><li>Firebase</li><li>LangChain</li><li>DuckDB</li></ul>
+    <h3 class="reveal">Learning now</h3>
+    <ul class="tags big soft reveal"><li>Transformers and attention</li><li>Hugging Face</li><li>LangGraph</li><li>MCP</li><li>AutoGen</li></ul>
+  </section>
+
+  <section id="experience" class="wrap">
+    <h2 class="reveal">Experience and certificates</h2>
+    <ol class="time">
+      <li class="reveal"><strong>Arch Technologies, Generative AI Intern</strong> (remote)<span>1 Sep to 30 Oct 2026, in progress</span></li>
+      <li class="reveal"><strong>DecodeLabs, Intern</strong><span>Internship in progress.</span></li>
+      <li class="reveal"><strong>CodeAlpha, Data Analytics Intern</strong><span>10 Aug to 10 Sep 2026. Certificate of Completion and Letter of Recommendation.</span></li>
+      <li class="reveal"><strong>FlyRank AI Internship Program</strong> (self-paced)<span>Jul to Sep 2026. Certificates in Machine Learning and AI Fluency.</span></li>
+      <li class="reveal"><strong>Anthropic Academy</strong><span>AI Fluency: Framework and Foundations, certificate of completion.</span></li>
+    </ol>
+  </section>
+
+  <section id="contact" class="wrap">
+    <h2 class="reveal">Contact</h2>
+    <div class="contact">
+      <div class="reveal">
+        <p class="lead">I am open to AI/ML roles, internships, and freelance projects. Send a message, or use any link below.</p>
+        <p class="mail">fawadahmad19991@gmail.com <button type="button" id="copy">Copy address</button></p>
+        <p class="cta">
+          <a class="btn ghost" href="mailto:fawadahmad19991@gmail.com">Email</a>
+          <a class="btn ghost" href="https://github.com/FawadAhmad-bilal">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/fawad-ahmad-78890236b/">LinkedIn</a>
+          <a class="btn ghost" href="https://share.streamlit.io/user/fawadahmad-bilal">Streamlit</a>
+        </p>
+      </div>
+      <!-- This form opens the visitor's email app with the message filled in (no server needed) -->
+      <form id="mailform" class="box reveal">
+        <label>Your name<input name="name" autocomplete="name" required></label>
+        <label>Your email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Message<textarea name="msg" rows="4" required></textarea></label>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </div>
+  </section>
+</main>
+<footer class="foot">Fawad, AI/ML engineer in training. Written by hand in HTML, CSS, and JavaScript.</footer>
+<script src="photo.js"></script>
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
